@@ -44,7 +44,7 @@ for i in companies:
 
 def send_mail(message):
     MY_EMAIL = "abdimalik.omar@chasacademy.se"
-    MY_PASSWORD = "Security0303"
+    MY_PASSWORD = "SkrivDittLösenordHär"
     RECEIVER_EMAIL = 'abdimalik.omar@chasacademy.se'
     try:
         # Create your SMTP session
