@@ -43,12 +43,12 @@ for i in companies:
 
 
 def send_mail(message):
-    MY_EMAIL = "abdimalik.omar@chasacademy.se"
-    MY_PASSWORD = "SkrivDittLösenordHär"
-    RECEIVER_EMAIL = 'abdimalik.omar@chasacademy.se'
+    MY_EMAIL = "selim.hussen@chasacademy.se"
+    MY_PASSWORD = "Batman123"
+    RECEIVER_EMAIL = "selim.hussen@chasacademy.se"
     try:
         # Create your SMTP session
-        smtp = smtplib.SMTP('smtp.gmail.com', 587)
+        smtp = smtplib.SMTP("smtp.gmail.com", 587)
 
         # Use TLS to add security
         smtp.starttls()
